@@ -24,7 +24,7 @@ const Plot = ({
   return (
     <mesh position={position} onClick={clickHandler}>
       <planeBufferGeometry attach='geometry' args={size} />
-      <meshStandardMaterial color={'#FF007F'} metalness={0.5} roughness={0} />
+      <meshStandardMaterial color={'#FF005C'} metalness={0.5} roughness={0} />
     </mesh>
   );
 };

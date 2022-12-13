@@ -98,17 +98,19 @@ a {
 }
 
 .info {
-  position: absolute;
+  position: fixed;
 	bottom: 0;
 	right: 0;
   z-index: 1;
+  border-radius: 25.5em;
 
-	background-color: rgba(32, 32, 46, 0.9);
+	background-color: rgba(36, 36, 55, 0.9);
 
 	width: 500px;
 	height: 250px;
 
   padding: 0.25em 2em;
+  
 }
 
 .info--owner {

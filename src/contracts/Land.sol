@@ -39,7 +39,43 @@ contract Land is ERC721 {
             Building("Shopping Plaza 1", address(0x0), 10, 0, 0, 5, 25, 10)
         );
         buildings.push(
-            Building("Shopping Plaza 2", address(0x0), -10, 0, 0, 5, 25, 10)
+            Building("Shopping Plaza 2", address(0x0), 20, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 3", address(0x0), 30, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 4", address(0x0), 40, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 5", address(0x0), 50, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 6", address(0x0), 60, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 7", address(0x0), -10, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 8", address(0x0), -20, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 9", address(0x0), -30, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 10", address(0x0), -40, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 11", address(0x0), -50, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Shopping Plaza 12", address(0x0), -60, 0, 0, 5, 25, 10)
+        );
+        buildings.push(
+            Building("Hospital", address(0x0), 0, 50, 0, 25, 25, 10)
+        );
+        buildings.push(
+            Building("Imagicaa Water Park", address(0x0), 0, -50, 0, 25, 25, 10)
         );
     }
 
