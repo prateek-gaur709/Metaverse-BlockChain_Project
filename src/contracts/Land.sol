@@ -29,7 +29,7 @@ contract Land is ERC721 {
         cost = _cost;
 
         buildings.push(
-            Building("City Hall", address(0x0), 0, 0, 0, 10, 10, 20)
+            Building("City Hall", address(0x0), 0, 0, 0, 10, 10, 45)
         );
         buildings.push(Building("Stadium", address(0x0), 0, 10, 0, 10, 5, 6));
         buildings.push(
@@ -72,10 +72,10 @@ contract Land is ERC721 {
             Building("Shopping Plaza 12", address(0x0), -60, 0, 0, 5, 25, 10)
         );
         buildings.push(
-            Building("Hospital", address(0x0), 0, 50, 0, 25, 25, 10)
+            Building("Hospital", address(0x0), 0, 50, 0, 25, 25, 30)
         );
         buildings.push(
-            Building("Imagicaa Water Park", address(0x0), 0, -50, 0, 25, 25, 10)
+            Building("Imagicaa Water Park", address(0x0), 0, -50, 0, 25, 25, 30)
         );
     }
 
